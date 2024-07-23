@@ -1,4 +1,4 @@
-package com.example.publish.model;
+package com.example.notification.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>publish-notifier</artifactId>
+	<artifactId>notification</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PublishNotifier</name>
+	<name>notification</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

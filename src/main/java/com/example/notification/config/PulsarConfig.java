@@ -1,4 +1,4 @@
-package com.example.publish.config;
+package com.example.notification.config;
 
 import org.apache.pulsar.client.api.PulsarClient;
 import org.apache.pulsar.client.api.PulsarClientException;

@@ -1,6 +1,6 @@
-package com.example.publish.service;
+package com.example.notification.service;
 
-import com.example.publish.model.Notification;
+import com.example.notification.model.Notification;
 import org.apache.pulsar.client.api.MessageId;
 import org.apache.pulsar.reactive.client.api.MessageSpec;
 import org.apache.pulsar.reactive.client.api.ReactiveMessageSender;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 @Service
-public class NotificationProducerService {
+public class ProducerService {
 
     private final ReactiveMessageSender<String> emailProducer;
 
@@ -18,7 +18,7 @@ public class NotificationProducerService {
     private final ReactiveMessageSender<String> pushProducer;
 
     @Autowired
-    public NotificationProducerService(ReactiveMessageSender<String> emailProducer, ReactiveMessageSender<String> smsProducer, ReactiveMessageSender<String> pushProducer) {
+    public ProducerService(ReactiveMessageSender<String> emailProducer, ReactiveMessageSender<String> smsProducer, ReactiveMessageSender<String> pushProducer) {
         this.emailProducer = emailProducer;
         this.smsProducer = smsProducer;
         this.pushProducer = pushProducer;

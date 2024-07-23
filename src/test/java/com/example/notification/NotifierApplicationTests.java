@@ -1,4 +1,4 @@
-package com.example.publish;
+package com.example.notification;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
